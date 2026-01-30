@@ -4,8 +4,10 @@ import "./App.css";
 import Props from "./components/Props";
 //components UseState
 import UseState from "./components/UseState";
-////components UseState
+//components UseState
 import UnionTypes from "./components/UnionTypes";
+//components Eventos tipados
+import EventosTipados from "./components/EventosTipados";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Props />
       <UseState />
       <UnionTypes />
+      <EventosTipados />
     </div>
   );
 }
