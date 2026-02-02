@@ -9,6 +9,9 @@ import UnionTypes from "./components/UnionTypes";
 //components Eventos tipados
 import EventosTipados from "./components/EventosTipados";
 
+//Projeto Final
+import Projeto from "./ProjetoSemana/Projeto";
+
 function App() {
   return (
     <div>
@@ -16,6 +19,7 @@ function App() {
       <UseState />
       <UnionTypes />
       <EventosTipados />
+      <Projeto />
     </div>
   );
 }
